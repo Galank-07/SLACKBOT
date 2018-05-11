@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import SLACKBOT
+from SLACKBOT.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,requests,urllib
 from gtts import gTTS
 import goslate
 
-#kk = LINETCR.LINE()
+#kk = SLACKBOT.LINE()
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE()
+cl = SLACKBOT.LINE()
 cl.login(token="EmLV5twOWfR6ybWCUO0b.sDTrH/zMSMOdJJyRwe3qQW.eJvaeOQigQYb4ukESxrJdzaTHRe1I9LExmgCz5WfzJ4=")
 cl.loginResult()
 
