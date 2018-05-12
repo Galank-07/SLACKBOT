@@ -32,8 +32,11 @@ pip2 install thrift==0.9.3
 
 
 THANKS TO:
+
 ●тєαм ѕℓα¢ĸвσт●
 
 ADD ME LINE : fuck.you__
+
 FOLLOW INSTAGRAM : @galank23_
+
 MY NAME : ✍͡➴͜Ĝα₤αηĸ͜͡✫
