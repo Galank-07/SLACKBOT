@@ -3,13 +3,13 @@
 #JANGAN UBAH SCRIPT NYA , KALO MAU UBAH IZIN DULU KE http://line.me/ti/p/~fuck.you__ !!!!!!!!
 #ISI TOKEN KAMU DI GANTI SAMA TOKEN AKUN KAMU YANG MAU DIJADIIN BOT SIDER
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import SLACKBOT
+from SLACKBOT.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
-cl = LINETCR.LINE()
-cl.login(token='Es3yfQCmmjLzo8Wy5cg8.PpgyChCcaP7Gv2jcdrsIEa.H+0BsXYaMQOak58w0DJ2jmyjlAd9Ukm5mXqwktN/wMM=')
+cl = SLACKBOT.LINE()
+cl.login(token='Ese78Cb7KGmyGxr2PD8e.Sai4AS7dWx8iCm5uNrpTBG.XrV7GgwpENWmw4bkxC8uB5/QjAPTYo9KUMtRiBD5z04=')
 cl.loginResult()
 
 print "login Bot 0███████████████████100% Succes"
