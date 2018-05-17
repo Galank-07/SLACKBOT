@@ -127,7 +127,7 @@ helpMessage ="""
 ╚═════════════"""
 helo=""
 
-KAC=[cl,ki,ki2,ki3,ki4,ki5]#,ki6]
+KAC=[cl,ki,ki2,ki3,ki4,ki5,ki6]
 mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
@@ -135,7 +135,7 @@ ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
 ki5mid = ki5.getProfile().mid
-#ki6mid = ki6.getProfile().mid
+ki6mid = ki6.getProfile().mid
 Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid]#,ki6mid]
 admsa = "uc70d401be3f16f6eb101c1154ca1855d"
 me = cl.getProfile().mid
