@@ -16,32 +16,32 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 
-cl = SLACKBOT.LINE()
-cl.login(token="Etmo5LrrUTjOR1K2muke.wvhydD8HlswGsvWpinOaVG.aHWQNCE5Za2JtFMBK2YHg7IAsp36Z01a0bPCFcjzAPk=")
+cl = SLACKBOT.LINE()#BOT1
+cl.login(token="")
 cl.loginResult()
 
-kt = SLACKBOT.LINE()
-kt.login(token="Etn2KfMhJQgvE1ug6KBa.3svWLda5Jb1maVIdRVif6G.lgb9ON9bmKOlYu82dF0c/AoJBl2eHdbzZpqLTdYo3EM=")
+kt = SLACKBOT.LINE()#BOT2
+kt.login(token="")
 kt.loginResult()
 
-ks = SLACKBOT.LINE()
-ks.login(token="EtoViAmEfIVPB0wzSv83.eYIoClpI2sl2hRSJw7q6SW.ENWcN+AlMzDtjf8pAiZ5f6QHEYFTOi/AWCxU9XFa//4=")
+ks = SLACKBOT.LINE()#BOT3
+ks.login(token="")
 ks.loginResult()
 
-ki = SLACKBOT.LINE()
-ki.login(token="EtV9c34CNjmpTroO8AY8.LetmZ3b3S8xsvXte6ExxAa.dh9ZLSr8TQtGw1I3qZBCIshg056Upf8uqDCY/SpE1JA=")
+ki = SLACKBOT.LINE()#BOT4
+ki.login(token="")
 ki.loginResult()
 
-kk = SLACKBOT.LINE()
-kk.login(token="Eta3ufge46B7Xai6eSXa.WQ7xJwYTy17gLrjSzVBpMG.lvH5/Z60YNuvBZF4vtpnU9IJOU/hHipXxbbI6/ep3IQ=")
+kk = SLACKBOT.LINE()#BOT5
+kk.login(token="")
 kk.loginResult()
 
-kc = SLACKBOT.LINE()
-kc.login(token="EtnqdDINxFC1V55dyui8.yShUITzJjuINW9CsoWQVca.yMsvQC9J9iaSVbNDZ0EqWEhpA48m59OnMrYDTL4XwqQ=")
+kc = SLACKBOT.LINE()#BOT6
+kc.login(token="")
 kc.loginResult()
 
-kl = SLACKBOT.LINE()
-kl.login(token="EtVqAeC6JkSvvhyTXq91.ccBRnlJ52qxGddbmnGz+iq.npAJxCC0vRUen5ui/NgxGv2X8cUooSstYn8N0DbUWKE=")
+kl = SLACKBOT.LINE()#BOT7
+kl.login(token="")
 kl.loginResult()
 
 print "╔═════════════\n╠➣LOGIN SUCCESS\n╚═════════════\nsᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ\nTΣΔM SLΔCҜβΩT\n✍͡➴͜Ĝα₤αηĸ͜͡✫"
@@ -80,103 +80,122 @@ helpMessage= """
 ╠═══════════════════
 ╠ Command Admin & Owner
 ╠═══════════════════
-╠Help0 (Invite Bot & Keluarin Bot)
-╠Help1 (Protect Grups)
-╠Help2 (Kicker Commands)
-╠Help3 (System Commands)
+╠Help0 (Invite Bot]
+╠Help1 (Protect)
+╠Help2 (Kicker)
+╠Help3 (System)
 ╠══════════════════ 
 ╠ Command Owner 
 ╠══════════════════
-╠Help4 (Setting Bot)
-╠Help5 (Broadcast Commands)
+╠➣Help4 (Settings)
+╠➣Help5 (Broadcast)
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
+line.me/ti/p/~fuck.you__
 """
 
 helpinvite= """
 ╔══════════════════
 ╠ BOT COMMAND
 ╠══════════════════
-╠Join all [Untuk Memanggil Semua Asist]
-╠Bye [Untuk Mengeluarkan Semua Asist]
-╠Kiker join [Untuk Memanggil Bot Kicker]
-╠Kiker out [Mengeluarkan Bot Kicker]
-╠Bye all [Untuk Mengeluarkan Semua Bot]
-╠Bot the end [Command for Creator]
+╠➣Join all 
+╠➣Bye 
+╠➣Kiker join
+╠➣Kiker out 
+╠➣Bye all 
+╠➣Bot the end
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
-
+line.me/ti/p/~fuck.you__
 """
 
 helppro= """
 ╔═══════════════════
 ╠ PROTECT COMMAND
 ╠️═══════════════════
-╠Protect:low
-╠Protect:hight
-╠Protect:on
-╠Protect:off
-╠Protectqr:on
-╠Protectqr:off
-╠Blockinvite:on
-╠Blockinvite:off
+╠➣Protect:low
+╠➣Protect:hight
+╠➣Protect:on
+╠➣Protect:off
+╠➣Protectqr:on
+╠➣Protectqr:off
+╠➣Blockinvite:on
+╠➣Blockinvite:off
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
-
+line.me/ti/p/~fuck.you__
 """
 
 helpkick= """
 ╔═══════════════════
 ╠ KICKER COMMAND
 ╠═══════════════════
-╠Nk [Tag Target]
-╠Vkick [Tag Target]
-╠Cleanse
-╠Ban [Tag Target]
-╠Unban [Tag Target]
-╠Ban:on [Send Contact]
-╠Unban:on [Send Contact]
+╠➣Nk [Tag Target]
+╠➣Vkick [Tag Target]
+╠➣Cleanse
+╠➣Ban [Tag Target]
+╠➣Unban [Tag Target]
+╠➣Ban:on [Send Contact]
+╠➣Unban:on [Send Contact]
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
-
+line.me/ti/p/~fuck.you__
 """
 
 helpsystem= """
 ╔═══════════════════
 ╠ SYSTEM COMMAND
 ╠═══════════════════
-╠Runtime
-╠System
-╠Iconfig
-╠Kernel
-╠Cpu
-╠Speed
-╠Bot restart
-╠Clear invites [Cancel Undangan Group]
-╠Settings
-╠link open [Untuk Membuka Url]
-╠link close [Untuk Menutup URL]
-╠Gurl [Untuk Melihat Url Group]
-╠Admin on [Tag Target]
-╠Admin off [Tag Target]
-╠Owner on [Tag Target]
-╠Owner off [Tag Target]
+╠➣Runtime
+╠➣System
+╠➣Iconfig
+╠➣Kernel
+╠➣Cpu
+╠➣Speed
+╠➣Bot restart
+╠➣Clear invites 
+╠➣Settings
+╠➣link open 
+╠➣link close 
+╠➣Gurl 
+╠➣Admin on [Tag Target]
+╠➣Admin off [Tag Target]
+╠➣Owner on [Tag Target]
+╠➣Owner off [Tag Target]
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
-
+line.me/ti/p/~fuck.you__
 """
 
 helpsetting= """
 ╔═══════════════════
 ╠ SETTING BOT COMMAND
 ╠═══════════════════
-╠Bot1 rename:[text]
-╠Bot2 rename:[text]
-╠Bot3 rename:[text]
-╠Bot4 rename:[text]
-╠Bot5 rename:[text]
-╠Bot6 rename:[text]
-╠Bot7 rename:[text]
-╠All rename:
-╠Allbio:
-╠Restore
+╠➣Bot1 rename:[text]
+╠➣Bot2 rename:[text]
+╠➣Bot3 rename:[text]
+╠➣Bot4 rename:[text]
+╠➣Bot5 rename:[text]
+╠➣Bot6 rename:[text]
+╠➣Bot7 rename:[text]
+╠➣All rename:
+╠➣Allbio:
+╠➣Restore
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
-
+line.me/ti/p/~fuck.you__
 """
 
 helpbc= """
@@ -185,7 +204,11 @@ helpbc= """
 ╠═══════════════════
 ╠➣Pm cast   [text]
 ╠➣Broadcast [text]
+╠═══════════════
+╠➣sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ  : 
+╠➣TΣΔM SLΔCҜβΩT
 ╚═══════════════════
+line.me/ti/p/~fuck.you__
 """
 KAC=[cl,kt,ks,ki,kk,kc,kl]
 DET=[cl,kt,ks,ki,kk,kc,kl]
@@ -204,10 +227,10 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 targets = []
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"u5951d80ddf212d25a0495c0f20da00be","u78643d09e42a36836a17cc918963a8b7"]
-admin = ["u78643d09e42a36836a17cc918963a8b7"]
-owner = ["u78643d09e42a36836a17cc918963a8b7"]
-creator=["u78643d09e42a36836a17cc918963a8b7"]
+Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,"MID BOT1","MID BOT2","MID BOT3","MID BOT4","MID BOT5","MID BOT6","MID BOT7"]
+admin = ["MID ADMIN"]
+owner = ["MID OWNER"]
+creator=["MID CREATOR"]
 wait = {
     'contact':False,
     'autoJoin':True,
